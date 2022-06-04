@@ -1,0 +1,38 @@
+[
+  {
+    "controllerId": 1,
+    "controllerName": null,
+    "iotSerialNumber": null,
+    "equipmentName": null,
+    "equipNumber": 0,
+    "Description": null,
+    "dateOfFunction": "0001-01-01T00:00:00",
+    "dateOfMaintain": "0001-01-01T00:00:00",
+    "maintainAction": null,
+    "Remark": null
+  },
+  {
+    "controllerId": 201,
+    "controllerName": "test",
+    "iotSerialNumber": "2001",
+    "equipmentName": null,
+    "equipNumber": 20001,
+    "Description": "All IOT Devices",
+    "dateOfFunction": "2022-05-22T00:00:00",
+    "dateOfMaintain": "2022-05-28T00:00:00",
+    "maintainAction": "Cleaning",
+    "Remark": "Tested"
+  },
+  {
+    "controllerId": 202,
+    "controllerName": "test",
+    "iotSerialNumber": "2001",
+    "equipmentName": null,
+    "equipNumber": 20001,
+    "Description": "All IOT Devices",
+    "dateOfFunction": "2022-05-22T00:00:00",
+    "dateOfMaintain": "2022-05-28T00:00:00",
+    "maintainAction": "Cleaning",
+    "Remark": "Tested"
+  }
+]
