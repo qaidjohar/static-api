@@ -13,6 +13,15 @@ exports.createDevice = (req, res) => {
   res.status(200).send('"Added Successfully"');
 };
 
+exports.updateDevice = (req, res) => {
+  res.status(200).send('"Updated Successfully"');
+};
+
+exports.deleteDevice = (req, res) => {
+  console.log('Device Id:', req.params.id);
+  res.status(200).send('"Deleted Successfully"');
+};
+
 // exports.getAllTours = (req, res) => {
 //   console.log(req.requestTime);
 

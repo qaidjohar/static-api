@@ -8,8 +8,10 @@ router.route('/ControllerData').get(genController.getControllerData);
 router
   .route('/Device')
   .get(genController.getAllDevice)
-  .post(genController.createDevice);
+  .post(genController.createDevice)
+  .put(genController.updateDevice);
 
+router.route('/Device/:id').delete(genController.deleteDevice);
 // router
 //   .route('/')
 //   .get(userController.getAllUsers)
