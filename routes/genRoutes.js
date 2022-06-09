@@ -4,6 +4,9 @@ const genController = require('./../controllers/genController');
 const router = express.Router();
 
 router.route('/ControllerData').get(genController.getControllerData);
+router
+  .route('/ControllerData/getsingle/:id')
+  .get(genController.getSingleControllerData);
 
 router
   .route('/Device')
@@ -12,6 +15,8 @@ router
   .put(genController.updateDevice);
 
 router.route('/Device/:id').delete(genController.deleteDevice);
+
+router.route('/User/validateUser/:username/:password').get(genController.login);
 // router
 //   .route('/')
 //   .get(userController.getAllUsers)
