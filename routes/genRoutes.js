@@ -3,6 +3,7 @@ const genController = require('./../controllers/genController');
 
 const router = express.Router();
 
+router.route('/LiveDevice').get(genController.getLiveDevice);
 router.route('/ControllerData').get(genController.getControllerData);
 router
   .route('/ControllerData/getsingle/:id')

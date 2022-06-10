@@ -1,0 +1,16 @@
+[
+  {
+    "DeviceID": 1,
+    "sum": 315,
+    "controllerName": "Welding GF Model",
+    "count": 3,
+    "DateTime": "2022-05-02T08:00:12"
+  },
+  {
+    "DeviceID": 2,
+    "sum": 315,
+    "controllerName": "test",
+    "count": 3,
+    "DateTime": "2022-05-03T08:00:12"
+  }
+]

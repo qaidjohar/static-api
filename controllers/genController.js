@@ -1,6 +1,11 @@
 const controllerDataResponse = require('../dev-data/data/controllerDataResponse.json');
 const singleControllerDataResponse = require('../dev-data/data/singleControllerData.json');
 const deviceDataResponse = require('../dev-data/data/deviceData.json');
+const liveDeviceDataResponse = require('../dev-data/data/liveDeviceData.json');
+
+exports.getLiveDevice = (req, res) => {
+  res.status(200).json(liveDeviceDataResponse);
+};
 
 exports.getControllerData = (req, res) => {
   res.status(200).json(controllerDataResponse);
